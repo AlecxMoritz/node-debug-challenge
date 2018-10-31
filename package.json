@@ -1,0 +1,17 @@
+{
+  "name": "debug-challenge",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.3.0",
+    "pg": "^7.6.0",
+    "sequelize": "^4.41.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  }
+}
