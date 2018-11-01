@@ -1,4 +1,4 @@
-var router = require('express').Router();
+var router = Router();
 var bcrypt = require('bcrypt');
 var jwt = require('jsonwebtoken');
 
@@ -8,7 +8,7 @@ router.post('/signup', (req, res) => {
     User.create({
         full_name: req.body.user.full_name,
         username: req.body.user.username,
-        passwordHash: bcrypt.hashSync(req.body.user.password, 10),
+        passwordhash: bcrypt.hashSync(req.body.user.password, 10),
         email: req.body.user.email,
     })
         .then(
