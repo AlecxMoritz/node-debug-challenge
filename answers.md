@@ -23,7 +23,7 @@
 
 ```var User = require('../db').import(//)```
 
-## Logic Errors ( Server Set, End Point Logic )
+## Logic Errors ( ```app.listen()```, End Point Logic )
 
 6. app.js : line 13 - No host provided
 
