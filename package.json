@@ -4,7 +4,7 @@
   "main": "app.js",
   "license": "MIT",
   "dependencies": {
-    "bcrypt": "^3.0.2",
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "jsonwebtoken": "^8.3.0",
